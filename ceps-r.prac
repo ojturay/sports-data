@@ -74,4 +74,7 @@ boxplot(to, xlab="turnover", ylab="total number", main="spread of of turnover")
 boxplot(assists, xlab="assists", ylab="total number", main="spread of assists")
 boxplot(block, xlab="block", ylab="total number", main="spread of block")
 
+## or combining all the in-game parameters onto a single chart
+boxplot(ceps[8:14], use.cols=TRUE, main="total number spread of  In-Game parameters", 
+        xlab="in-game parameter", ylab="total number")
 
